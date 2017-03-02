@@ -1,0 +1,16 @@
+package AutoTagger;
+
+import java.nio.file.Path;
+
+public class AutoTagger {
+	public static final String MODE_OVERWRITE="overwrite";
+	private Path rPath;
+	public AutoTagger(Path root){
+		rPath=root;
+	}
+	
+	public void getFileList(){
+		
+	}
+	
+}

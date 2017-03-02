@@ -1,0 +1,16 @@
+package main;
+
+import AutoTagger.AutoTagger;
+
+public class Main {
+	
+	
+	public static void main(String[] args){
+		for(String str : System.getenv().keySet()){
+			System.out.print(str);
+			System.out.println("     "+System.getenv(str));
+			
+		}
+	}
+
+}

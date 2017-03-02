@@ -1,0 +1,13 @@
+package AutoTagger;
+
+import java.nio.file.Path;
+
+public class AutoTagger {
+	private Path rPath;
+	public AutoTagger(Path root){
+		rPath=root;
+	}
+	
+	
+	
+}
